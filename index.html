@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>張雅婷｜履歷 Resume</title>
+  <meta name="description" content="張雅婷｜C# 工程師｜.NET Core / MVC、Vue 3、MSSQL" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <style>
+    .avatar{
+      width:140px;height:140px;object-fit:cover;
+      border-radius:50%;border:3px solid rgba(255,255,255,.2);
+      display:block;margin-bottom:14px;
+    }
+    :root{
+      --bg:#0b1020;
+      --panel:#0f172a;
+      --ink:#e5e7eb;
+      --sub:#94a3b8;
+      --brand:#38bdf8;
+      --chip:#1e293b;
+      --muted:#334155;
+      --accent:#22d3ee;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%}
+    body{
+      font-family: "Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;
+      background: radial-gradient(1200px 800px at 15% -10%, rgba(56,189,248,.25), transparent),
+                  radial-gradient(1000px 600px at 110% 10%, rgba(34,211,238,.18), transparent),
+                  var(--bg);
+      color:var(--ink);
+      line-height:1.75;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{
+      max-width:1000px;margin:40px auto 0;padding:24px 24px 8px;
+    }
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08);
+      box-shadow:0 8px 30px rgba(2,6,23,.5);
+      border-radius:20px;
+      overflow:hidden;
+    }
+    .hero{padding:28px}
+    .hero h1{margin:0 0 6px;font-size:36px;letter-spacing:.5px}
+    .tagline{margin:0;color:var(--sub)}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;color:var(--sub)}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+    .btn{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:10px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);
+      background:rgba(56,189,248,.12);color:#e6faff;font-weight:600;
+      cursor:pointer
+    }
+    .btn.secondary{background:rgba(255,255,255,.06);color:var(--ink)}
+    main{max-width:1000px;margin:16px auto 80px;padding:0 24px;display:grid;grid-template-columns: 1fr;gap:16px}
+    section{padding:22px}
+    h2{margin:0 0 10px;font-size:20px;letter-spacing:.4px}
+    .sub{color:var(--sub);margin:0 0 8px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+    .chip{padding:6px 10px;border-radius:999px;background:var(--chip);border:1px solid rgba(255,255,255,.08);color:#c7d2fe}
+    .item{margin-top:18px}
+    .item h3{margin:0 0 4px;font-size:18px}
+    .item .when{color:var(--sub);font-size:14px;margin:0 0 8px}
+    .project{border-left:3px solid var(--muted);padding-left:12px;margin:12px 0 0}
+    ul{margin:6px 0 0 18px}
+    li{margin:4px 0}
+    footer{max-width:1000px;margin:0 auto 60px;color:var(--sub);padding:0 24px}
+    nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    nav a{padding:6px 10px;border-radius:8px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08)}
+    /* print */
+    @media print{
+      body{background:white;color:#111}
+      .card{box-shadow:none;border:1px solid #ddd}
+      a{color:#0366d6}
+      .btn,.toolbar,nav{display:none !important}
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "張雅婷",
+      "jobTitle": "C# 工程師",
+      "address": {"addressLocality": "台北市", "addressCountry": "TW"},
+      "knowsAbout": ["C#",".NET Core",".NET MVC","Entity Framework","Dapper","Vue 3","MSSQL","Git Flow","Bootstrap","Tailwind CSS"],
+      "url": ""
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="card hero">
+      <img src="profile.jpeg" alt="張雅婷大頭照" class="avatar">
+      <h1>張雅婷</h1>
+      <p class="tagline">C# 工程師｜.NET Core / MVC、Vue 3、MSSQL</p>
+      <div class="meta">
+        <span>台北市，台灣</span>
+      </div>
+      <div class="toolbar">
+        <button class="btn" onclick="window.print()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 9V2h12v7h2a2 2 0 0 1 2 2v6h-4v4H6v-4H2v-6a2 2 0 0 1 2-2h2Zm2-5v5h8V4H8Zm8 14H8v4h8v-4Zm-12-2h16v-4H4v4Z"/></svg>
+          列印／儲存 PDF
+        </button>
+        <a class="btn secondary" href="https://www.cake.me/?ref=resume_web&utm_source=resume&utm_medium=web&utm_content=hayley-chang-53150c" target="_blank" rel="noopener">作品／履歷頁</a>
+      </div>
+      <nav>
+        <a href="#about">自我介紹</a>
+        <a href="#experience">工作經驗</a>
+        <a href="#education">學歷</a>
+        <a href="#skills">技能</a>
+        <a href="#languages">語言</a>
+        <a href="#links">連結</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>自我介紹</h2>
+      <p class="sub">具備兩年 C# 軟體維護與開發經驗，熟悉 .NET 技術應用，能獨立負責從需求分析到程式實作的開發流程。早期主要承擔系統維護與優化，累積架構理解與除錯經驗；後續參與新系統建置與功能開發，展現快速學習及跨技術整合的能力。重視程式品質與使用者體驗，確保功能符合 PM 規劃，並以使用者角度設計程式邏輯與操作介面。</p>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>工作經驗</h2>
+
+      <div class="item">
+        <h3>C# 工程師｜環資國際有限公司</h3>
+        <p class="when">2024/08 – 至今</p>
+
+        <div class="project">
+          <strong>環境檢測系統建置案</strong>（2024/08 – 2025/05，5 人團隊）
+          <p>協助國環院建置全新環境檢測系統，負責盲樣檢測模組開發。</p>
+          <ul>
+            <li>開發「指定機構盲樣」模組：供檢測業者填報結果，提供公務人員追蹤進度與 Excel 報表匯出。</li>
+            <li>開發「國際盲樣」模組：支援多條件查詢、結果判定上傳、統計追蹤與報表匯出。</li>
+            <li>技術：C#、.NET Core 8 MVC、Entity Framework、Dapper、Vue 3、Bootstrap 5、MSSQL、Git/GitFlow</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <strong>環境用藥系統建置案</strong>（2025/05 – 至今，7 人團隊）
+          <p>將化學署原 WPF 系統翻寫至 .NET Core 8。</p>
+          <ul>
+            <li>同意授權作業：管理許可證授權流程，支援新增、編輯與查詢。</li>
+            <li>AI 智慧客服：串接 Dify API，自動回覆常見問題，減輕人工負擔。</li>
+            <li>客服紀錄查詢：記錄並匯出客服互動內容，協助分析與系統優化。</li>
+            <li>許可證申請化學成分建立：支援模糊查詢與下拉選單，提升填寫效率。</li>
+            <li>技術：C#、.NET Core 8 MVC、Entity Framework、Vue 3、Tailwind CSS、Axios、MSSQL、Git/GitFlow</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <strong>廣告網路爬蟲模組</strong>（2025/05 – 至今，4 人團隊）
+          <p>協助化學署查核環境用藥廣告是否涉及不實宣傳。</p>
+          <ul>
+            <li>以 ChromeDriver 模擬人類操作，搭配 HtmlAgilityPack 擷取並比對廣告資訊。</li>
+            <li>實作關鍵字比對與稽核判斷，將結果入庫並提供查詢與報表匯出。</li>
+            <li>串接 Dify API，以 AI 自動化風險等級判斷，降低人工作業。</li>
+            <li>技術：C#、.NET MVC、Entity Framework、jQuery、Bootstrap 5、MSSQL、Git/GitFlow</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <strong>經驗亮點</strong>
+          <ul>
+            <li>多元經驗：涵蓋系統建置、模組開發、AI 串接與爬蟲技術。</li>
+            <li>快速成長：從維護系統進展到全新開發與跨技術專案。</li>
+            <li>品質保證：以使用者角度設計流程，確保結果符合 PM 規劃並提升可用性。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="item">
+        <h3>中級管理師｜鼎新數智股份有限公司</h3>
+        <p class="when">2023/08 – 2024/06（11 個月）</p>
+        <div class="project">
+          <strong>活動管理系統</strong>
+          <ul>
+            <li>企業內部活動管理平台之維護與功能優化。</li>
+            <li>撰寫 SQL 報表提供管理層分析。</li>
+            <li>技術：ASP.NET Web Form、MSSQL（原生 SQL／Stored Procedure）、HTML/CSS/jQuery、Git/GitFlow</li>
+          </ul>
+        </div>
+        <div class="project">
+          <strong>業務管理 CRM 系統</strong>
+          <ul>
+            <li>維護與優化功能邏輯，調校 SQL 報表，顯著降低資料庫執行時間。</li>
+            <li>技術：ASP.NET Web Form、MSSQL（原生 SQL／Stored Procedure）、HTML/CSS/jQuery</li>
+          </ul>
+        </div>
+        <div class="project">
+          <strong>對外活動報名問卷網頁</strong>
+          <ul>
+            <li>負責後端 API 開發與前端串接：問卷題目、客戶資料傳遞與回收後數據計算。</li>
+            <li>將統計結果提供前端呈現。</li>
+            <li>技術：C#、.NET Core 8 API、Dapper、MSSQL、Vue 3、GitLab/GitFlow</li>
+          </ul>
+        </div>
+        <div class="project">
+          <strong>成果亮點</strong>
+          <ul>
+            <li>入職未滿一年即參與新功能開發並導入新技術，展現快速學習與適應力。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="item">
+        <h3>結訓生｜緯育 TibaMe Java 雲端服務開發技術養成班（中壢）</h3>
+        <p class="when">2023/03 – 2023/07（5 個月）</p>
+        <div class="project">
+          <strong>專題：Seeker`s pool 悉客—求職網站</strong>
+          <ul>
+            <li>負責文章專區與一對一線上客服功能。</li>
+            <li>以 ER、Use Case 與流程圖規劃資料庫與功能架構，採 MVC 模式開發。</li>
+            <li>前端：HTML5、CSS、JavaScript、Bootstrap；後端：Java、Servlet、JSP、JDBC、Maven。</li>
+            <li>運用 Ajax、Gson、JSON、WebSocket、MySQL、Redis 等技術；最終由組長於 Spring Boot 完成整合。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="card">
+      <h2>學歷</h2>
+      <div class="item">
+        <h3>國立高雄餐旅大學（NATIONAL KAOHSIUNG UNIVERSITY OF HOSPITALITY AND TOURISM）</h3>
+        <p class="when">2012 – 2016｜休閒暨遊憩管理系</p>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>技能</h2>
+      <div class="chips">
+        <span class="chip">.NET Core</span>
+        <span class="chip">.NET MVC</span>
+        <span class="chip">C#</span>
+        <span class="chip">Entity Framework</span>
+        <span class="chip">Dapper</span>
+        <span class="chip">Vue 3</span>
+        <span class="chip">HTML/CSS</span>
+        <span class="chip">Tailwind CSS</span>
+        <span class="chip">Bootstrap 5</span>
+        <span class="chip">Axios</span>
+        <span class="chip">MSSQL</span>
+        <span class="chip">Git / GitFlow</span>
+        <span class="chip">jQuery</span>
+        <span class="chip">ChromeDriver</span>
+        <span class="chip">HtmlAgilityPack</span>
+      </div>
+    </section>
+
+    <section id="languages" class="card">
+      <h2>語言</h2>
+      <p>中文（母語或雙語）</p>
+    </section>
+
+    <section id="links" class="card">
+      <h2>連結</h2>
+      <ul>
+        <li><a href="https://www.cake.me/?ref=resume_web&utm_source=resume&utm_medium=web&utm_content=hayley-chang-53150c" target="_blank" rel="noopener">Cake.me 履歷頁</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>本頁為 GitHub Pages 單一檔案版本（index.html）。最後更新：2025-09-04</p>
+  </footer>
+</body>
+</html>
